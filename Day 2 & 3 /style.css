@@ -1,5 +1,4 @@
-             /* Selector */
-
+     /* Selector */
 
 /* Element Selector */
 p {
@@ -66,8 +65,80 @@ div {
   margin: 10px;    /* Space outside box */
 }
 
+      /* Display Types
+   Defines how an element behaves. */
 
 
+span {
+  display: inline; /* default for span */
+}
+
+div {
+  display: block; /* default for div */
+}
+
+nav ul li {
+  display: inline-block; /* sit next to each other */
+}
+
+
+        /* Flexbox
+     Great for aligning items in a row or column. */
+
+
+.container {
+  display: flex;
+  justify-content: space-between; /* left, center, right */
+  align-items: center; /* vertical alignment */
+}
+
+.box {
+  background: lightblue;
+  padding: 20px;
+  margin: 10px;
+}
+
+
+             /* Grid
+      Best for creating layouts. */
+
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr; /* 3 equal columns */
+  gap: 10px;
+}
+
+.grid-item {
+  background: lightcoral;
+  padding: 20px;
+}
+
+
+      /* Responsive Design (Media Queries)
+    Make your site adapt to screen size. */
+
+
+body {
+  font-size: 16px;
+}
+
+/* For tablets */
+@media (max-width: 768px) {
+  body {
+    font-size: 14px;
+  }
+  .container {
+    flex-direction: column; /* stack items */
+  }
+}
+
+/* For mobile */
+@media (max-width: 480px) {
+  h1 {
+    font-size: 20px;
+  }
+}
 
 
 
