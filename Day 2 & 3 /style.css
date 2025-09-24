@@ -55,7 +55,18 @@ h1 {
   letter-spacing: 2px;
 }
 
-        
+     /* Box Model
+     Every element has: content + padding + border + margin */
+
+
+div {
+  width: 200px;
+  padding: 20px;   /* Space inside box */
+  border: 2px solid black;  /* Border */
+  margin: 10px;    /* Space outside box */
+}
+
+
 
 
 
