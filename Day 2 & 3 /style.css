@@ -38,6 +38,23 @@ p {
   color: hsl(200, 100%, 40%); /* Blue shade */
 }
 
+
+   /* Typography
+Control fonts, sizes, spacing */
+
+
+body {
+  font-family: "Segoe UI", Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+h1 {
+  font-size: 2.5rem;   /* Responsive size */
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
         
 
 
