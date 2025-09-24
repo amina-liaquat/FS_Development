@@ -1,0 +1,24 @@
+             /* Selector */
+
+
+/* Element Selector */
+p {
+  color: blue;
+}
+
+/* Class Selector */
+.intro {
+  font-size: 18px;
+  color: green;
+}
+
+/* ID Selector */
+#main-heading {
+  text-align: center;
+  color: purple;
+}
+
+/* Grouping Selector */
+h1, h2, p {
+  font-family: Arial, sans-serif;
+}
