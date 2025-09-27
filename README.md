@@ -16,7 +16,7 @@
 
 ## Day 5: Mini Project
 
-Project: Responsive Portfolio Website (HTML + CSS).
+Project: Simple <personal Webpage(HTML + CSS).
 
 ---
 
