@@ -32,6 +32,12 @@ const subtract = (a, b) => a - b;
 
 console.log(subtract(10, 4)); // 6
 
+   // Anonymous Functions
+
+setTimeout(function() {
+  console.log("This runs after 2 seconds");
+}, 2000);
+
     
 
 
