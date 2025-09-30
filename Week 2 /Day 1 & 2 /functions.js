@@ -25,3 +25,13 @@ const multiply = function(x, y) {
 };
 
 console.log(multiply(4, 6)); // 24
+
+  // Arrow Function
+
+const subtract = (a, b) => a - b;
+
+console.log(subtract(10, 4)); // 6
+
+    
+
+
