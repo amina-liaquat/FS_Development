@@ -49,6 +49,18 @@ function outer() {
 
 console.log(outer()); // Hello from inner!
 
+   // Callback Functions
+
+function processUserInput(callback) {
+  let name = "Amina";
+  callback(name);
+}
+
+processUserInput(function(name) {
+  console.log("Hello " + name);
+});
+
+
     
 
 
