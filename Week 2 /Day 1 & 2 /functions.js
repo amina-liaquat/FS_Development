@@ -38,6 +38,17 @@ setTimeout(function() {
   console.log("This runs after 2 seconds");
 }, 2000);
 
+   // Nested Functions
+
+function outer() {
+  function inner() {
+    return "Hello from inner!";
+  }
+  return inner();
+}
+
+console.log(outer()); // Hello from inner!
+
     
 
 
