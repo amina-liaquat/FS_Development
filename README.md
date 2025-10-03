@@ -46,3 +46,47 @@ Goal: Learn programming basics + DOM manipulation.
 Project: Interactive To-do App or Weather App (HTML + CSS + JS).
 
 ---
+
+## Week 3: React.js (Frontend Framework)
+
+Goal: Learn React fundamentals and integrate with APIs.
+
+## Day 1–2: React Basics + React Router
+
+- Create React project (Vite/CRA).
+- JSX, components, props.
+- Hooks: useState, useEffect.
+- React Router (pages: home, about, login).
+- Conditional rendering & loading states.
+
+## Day 3–4: State Management & Forms + API Calls
+
+- Axios / fetch for API calls.
+- Hands-on: Fetch posts from JSONPlaceholder API.
+- Lifting state up.
+- Context API for global state.
+- Controlled components (forms).
+
+## Day 5: Mini Project
+
+Project: Blog Frontend (fetch posts, show details, add new post with form).
+
+---
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
