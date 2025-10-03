@@ -59,7 +59,7 @@ Goal: Learn React fundamentals and integrate with APIs.
 - React Router (pages: home, about, login).
 - Conditional rendering & loading states.
 
-## Day 3–4: State Management & Forms + API Calls
+## Day 3–4: State Management & Forms + API Call
 
 - Axios / fetch for API calls.
 - Hands-on: Fetch posts from JSONPlaceholder API.
