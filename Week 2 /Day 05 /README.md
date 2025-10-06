@@ -15,3 +15,14 @@
 - .then(), .catch(), and .finally()
 
 ---
+
+# Fetch API
+
+The Fetch API allows you to make HTTP requests (GET, POST, etc.) directly from your JavaScript code — without needing any external library like Axios or jQuery.
+
+```js
+fetch(url)
+  .then(response => response.json())
+  .then(data => console.log(data))
+  .catch(error => console.log("Error:", error));
+```
